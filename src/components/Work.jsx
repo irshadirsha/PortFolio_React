@@ -2,6 +2,9 @@ import React from 'react'
 import club from '../assets/iclub.png'
 import famms from '../assets/ecom.png'
 import pass from '../assets/passgen.png'
+import olxx from '../assets/olx.png'
+import net from '../assets/netflix.png'
+import todo from '../assets/todoss.png'
 function Work() {
   return (
     <div name='work' className='pl-14 lg:pl-0  w-full md:h-screen text-gray-300 bg-[#08192f]'>
@@ -72,7 +75,7 @@ function Work() {
                 </div>
 
                 <div 
-                style={{backgroundImage:`url(${club})`}}
+                style={{backgroundImage:`url(${olxx})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* hover */}
                     
@@ -81,10 +84,10 @@ function Work() {
 
                         </span>
                         <div className=' pt-8 text-center'>
-                            <a href="https://i-club-client.vercel.app/">
+                            {/* <a href="https://i-club-client.vercel.app/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="https://github.com/irshadirsha/I-club-backend">
+                            </a> */}
+                            <a href="https://github.com/irshadirsha/OLX-React-Vite">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -92,7 +95,7 @@ function Work() {
                 </div>
 
                 <div 
-                style={{backgroundImage:`url(${famms})`}}
+                style={{backgroundImage:`url(${net})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* hover */}
                     
@@ -101,17 +104,17 @@ function Work() {
 
                         </span>
                         <div className=' pt-8 text-center'>
-                            <a href="https://fammsstore.online/">
+                            {/* <a href="https://fammsstore.online/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="https://github.com/irshadirsha/fammsstore">
+                            </a> */}
+                            <a href="https://github.com/irshadirsha/Netflix-Clone">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div 
-                style={{backgroundImage:`url(${pass})`}}
+                style={{backgroundImage:`url(${todo})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* hover */}
                     
@@ -120,10 +123,8 @@ function Work() {
 
                         </span>
                         <div className=' pt-8 text-center'>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
+                           
+                            <a href="https://github.com/irshadirsha/ToDo-List">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
