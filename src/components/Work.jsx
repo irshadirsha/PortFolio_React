@@ -5,6 +5,7 @@ import pass from '../assets/passgen.png'
 import olxx from '../assets/olx.png'
 import net from '../assets/netflix.png'
 import todo from '../assets/todoss.png'
+import chat from '../assets/chat.png'
 function Work() {
   return (
     <div name='work' className='pl-14 lg:pl-0  w-full md:h-screen text-gray-300 bg-[#08192f]'>
@@ -26,10 +27,13 @@ function Work() {
                         </span>
                         <div className=' pt-8 text-center'>
                             <a href="https://i-club-client.vercel.app/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Demo</button>
+                            </a>
+                            <a href="https://github.com/irshadirsha/I-club-client">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Client</button>
                             </a>
                             <a href="https://github.com/irshadirsha/I-club-backend">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Server</button>
                             </a>
                         </div>
                     </div>
@@ -46,16 +50,16 @@ function Work() {
                         </span>
                         <div className=' pt-8 text-center'>
                             <a href="https://fammsstore.online/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Demo</button>
                             </a>
                             <a href="https://github.com/irshadirsha/fammsstore">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div 
-                style={{backgroundImage:`url(${pass})`}}
+                style={{backgroundImage:`url(${chat})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* hover */}
                     
@@ -63,12 +67,15 @@ function Work() {
                         <span className='text-2xl font-bold text-white tracking-wider'>
 
                         </span>
-                        <div className=' pt-8 text-center'>
-                            <a href="https://pass-gen-chi.vercel.app/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                        <div className=' pt-8 text-center flex justify-between'>
+                            <a href="">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Demo</button>
                             </a>
-                            <a href="https://github.com/irshadirsha/PassGen">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            <a href="https://github.com/irshadirsha/Chat_App_Client">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Client</button>
+                            </a>
+                            <a href="https://github.com/irshadirsha/Chat_App_Server">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Server</button>
                             </a>
                         </div>
                     </div>
@@ -88,7 +95,7 @@ function Work() {
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a> */}
                             <a href="https://github.com/irshadirsha/OLX-React-Vite">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Code</button>
                             </a>
                         </div>
                     </div>
@@ -108,7 +115,7 @@ function Work() {
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a> */}
                             <a href="https://github.com/irshadirsha/Netflix-Clone">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Code</button>
                             </a>
                         </div>
                     </div>
@@ -125,7 +132,7 @@ function Work() {
                         <div className=' pt-8 text-center'>
                            
                             <a href="https://github.com/irshadirsha/ToDo-List">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-xs'>Code</button>
                             </a>
                         </div>
                     </div>
